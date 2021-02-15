@@ -1,8 +1,8 @@
 class Aepctl < Formula
     desc "AEP command line interface"
     homepage "https://www.bungenstock.de/aepctl/"
-    url  "https://github.com/fuxs/aepctl/archive/v0.1.0.tar.gz"
-    sha256 "21db1a97dbf7883a3c9946a531666506b9eeb04a2ab5e4721758d1935f7045d7"
+    url  "https://github.com/fuxs/aepctl/archive/v0.1.1.tar.gz"
+    sha256 "1c2e70a74412b5c6954bccaaac1d942bd07a2582f07e3e47f7c74b2f06bc4d82"
     license "Apache-2.0"
     head "https://github.com/fuxs/aepctl.git"
   
