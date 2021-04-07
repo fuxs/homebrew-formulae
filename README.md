@@ -1,4 +1,4 @@
-# fuxs Homebrew Fomulae
+# fuxs Homebrew Formulae
 
 ```terminal
 $ brew tap fuxs/formulae

@@ -1,9 +1,10 @@
 class Aepctl < Formula
     desc "AEP command line interface"
     homepage "https://www.bungenstock.de/aepctl/"
-    url  "https://github.com/fuxs/aepctl/archive/v0.1.1.tar.gz"
-    sha256 "1c2e70a74412b5c6954bccaaac1d942bd07a2582f07e3e47f7c74b2f06bc4d82"
+    url  "https://github.com/fuxs/aepctl/archive/v0.2.0.tar.gz"
+    sha256 "56cc6f0146e38982edf08a426392ff1e371714f27d71497a3515eac836b7c051"
     license "Apache-2.0"
+    version "v0.2.0"
     head "https://github.com/fuxs/aepctl.git"
   
     livecheck do
@@ -12,7 +13,8 @@ class Aepctl < Formula
     end
   
     depends_on "go" => :build
-  
+    depends_on "pkger" => :build
+    
     def install
       # Build
       system "make","build"
