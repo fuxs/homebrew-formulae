@@ -2,10 +2,10 @@ class Aepctl < Formula
     desc "AEP command line interface"
     homepage "https://www.bungenstock.de/aepctl/"
     url  "https://github.com/fuxs/aepctl.git",
-      :tag => "v0.2.1",
-      :revision => "a293cf1666cea89cd8f005f1bd08b7f274ee0c7f"
+      :tag => "v0.3.0",
+      :revision => "e9cebb55b1bc6fd9f54f48fb8d6c0aba8064ad93"
     license "Apache-2.0"
-    version "v0.2.1"
+    version "v0.3.0"
   
     livecheck do
       url :head
